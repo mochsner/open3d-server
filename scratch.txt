@@ -1,0 +1,13 @@
+# Installing Ubuntu on VB
+
+sudo apt-get update
+sudo apt-get install virtualbox
+sudo apt-get install virtualbox—ext–pack
+
+# Setting up Ubuntu development machine
+sudo apt-get update && sudo apt-get install python3.8 python3-pip -y # THEN RESTART TERMINAL FOR PATH
+pip install pandas numpy pyodbc azure-storage-blob xlsxwriter uuid
+pip install open3d
+
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main" > /etc/apt/sources.list.d/microsoft-edge-dev.list'
+sudo apt update && sudo apt install microsoft-edge-beta
