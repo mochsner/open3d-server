@@ -10,7 +10,6 @@ For the sake of simplicity, I'm going to be approaching it with the standalone i
 sudo apt-get update && sudo apt-get install python3.8 python3-pip -y
 
 
-
 ```
 
 
