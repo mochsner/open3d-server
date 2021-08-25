@@ -11,3 +11,6 @@ pip install open3d
 
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/edge stable main" > /etc/apt/sources.list.d/microsoft-edge-dev.list'
 sudo apt update && sudo apt install microsoft-edge-beta
+
+
+apt-get install python3-venv
